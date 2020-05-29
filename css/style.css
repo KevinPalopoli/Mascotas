@@ -1,0 +1,95 @@
+/* Css para el inicio */
+
+.body-inicio{
+  background-image: url(../img/Fondo/fondo7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-inicio{
+  width: 80%;
+  margin: 0px auto;
+}
+
+.nav-inicio h3{
+  float: left;
+  margin: 0px;
+  padding: 20px;
+  color: white;
+  padding-right: 40px;
+  font-size: 25px;
+}
+
+.nav-inicio ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 25px;
+  overflow: hidden;
+}
+
+.nav-inicio li{
+  float: left;
+}
+
+.nav-inicio a{
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+.nav-inicio a:hover{
+  background-color: #58575A;
+  color: black;
+}
+
+.principal-home{
+  margin-left: 280px;
+  padding-top: 100px;
+  float: left;
+}
+
+.principal-home h1{
+  color: white;
+  font-size: 68px;
+}
+
+.principal-home p{
+  color: white;
+  width: 30vw;
+}
+
+.principal-home h3{
+  color: white;
+  padding-top: 20px;
+}
+
+#img1{
+  float: left;
+  width: 45%;
+  height: 35%;
+  padding-top: 180px;
+}
+
+.todo-home{
+  overflow: hidden;
+}
+
+.social ul{
+  list-style-type: none;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.social li{
+  float: left;
+}
+
+.social a{
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+/* Fin del css para el inicio */
