@@ -1,5 +1,7 @@
 /* Css para el inicio */
 
+/* Responsive design Celular */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +18,7 @@ header {
   width: 100%;
   height: 50px;
   color: white;
+  margin-top: 20px;
 }
 
 .contenedor {
@@ -52,10 +55,9 @@ header .contenedor{
 
 .menu {
   position: absolute;
-  top: 40px;
+  top: 15vw;
   left: 0;
   width: 100%;
-  height: 56vh;
   transition: all 0.5s;
   transform: translateX(-100%);
   background-color: gray;
@@ -82,23 +84,26 @@ header .contenedor{
 
 .main-inicio h1 {
   color: white;
-  font-size: 10vw;
+  font-size: 14vw;
+  padding-top: 5%;
 }
 
 .main-inicio p{
   color: white;
-  font-size: 4vw;
+  font-size: 6vw;
+  padding-top: 10px;
 }
 
 .main-inicio h3{
   color: white;
   padding-top: 30px;
-  font-size: 6vw;
+  font-size: 8vw;
 }
 
 #img1{
   width: 100%;
-  height: 35%;
+  height: 40%;
+  margin: auto;
 }
 
 .social ul{
@@ -117,7 +122,108 @@ header .contenedor{
   text-decoration: none;
   padding-top: 100px;
   margin-left: 30px;
+  font-size: 6vw;
 }
+
+.menu a:hover{
+  background-color: gray;
+}
+
+/* Fin de responsive design Celular */
+
+/* Responsive design Desktops and Laptops */
+
+@media only screen and (min-width:1224px) {
+
+.body-inicio{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+.contenedor {
+  overflow: hidden;
+}
+
+.contenedor h3 a{
+  float: left;
+  font-size: 1.7vw;
+  margin-top: 15px;
+}
+
+#menu-bar {
+  display: none;
+}
+
+header label {
+  display: none;
+}
+
+.menu{
+  position: static;
+  transform: translateX(0%);
+  display: contents;
+  overflow: hidden;
+}
+
+.menu li{
+  float: left;
+  list-style: none;
+}
+
+.menu a{
+  font-size: 1.5vw;
+  width: auto;
+  height: auto;
+  border: none;
+}
+
+.main-inicio {
+    margin-top: 8%;;
+    margin-left: 8%;
+  }
+
+.main-inicio h1 {
+  font-size: 6vw;
+  padding-top: 5%;
+}
+
+.main-inicio p{
+  font-size: 2vw;
+  padding-top: 3%;
+}
+
+.main-inicio h3{
+  padding-top: 30px;
+  font-size: 3vw;
+}
+
+#img1{
+  width: 200%;
+  height: 420px;
+  padding-top: 30%;
+}
+
+.social a{
+  font-size: 3vw;
+}
+
+.section-inicio{
+  width: 50%;
+  float: left;
+}
+
+.img-final {
+  float: left;
+  width: 30%;
+}
+
+.menu a:hover{
+  background-color: gray;
+}
+
+}
+
+/* Fin de responsive design Desktops and Laptos */
 
 /* Fin del css para el inicio */
 
