@@ -2,14 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1,
+    maximum-scale=1, minimum-scale=1">
     <title>MyPets</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   </head>
   <body class="body-inicio">
-    <nav class="nav-inicio">
-      <h3><a href="inicio.html">MYPETS</a></h3>
-      <ul>
+    <header>
+    <div class="contenedor">
+      <h3><a href="inicio.html"><i class="fas fa-paw"></i>MYPETS</a></h3>
+      <input type="checkbox" id="menu-bar">
+      <label for="menu-bar"><i class="fas fa-bars"></i></label>
+      <ul class="menu">
         <li><a href="inicio.html">Inicio</a></li>
         <li><a href="mascotas.html">Mascotas</a></li>
         <li><a href="contacto.html">Contacto</a></li>
@@ -17,24 +22,27 @@
         <li><a href="acerca.html">Acerca de MyPets</a></li>
         <li><a href="garrapatas.html">Di NO a las garrapatas</a></li>
       </ul>
-    </nav>
-    <div class="todo-home">
-    <div class="principal-home">
-  <h1>Mis Mascotas</h1>
-  <p>Sitio web creado para la representacion de mis mascotas. En cada seccion se
-  van a encontrar con fotos e informacion sobre ellas, ademas de tener una parte
-  extra relacionada a las pulgas y/o garrapatas</p>
-  <h3>Compartir en:</h3>
-  <div class="social">
-    <ul>
-     <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
-     <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-     <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-     <li><a href="https://www.gmail.com" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
-    </ul>
-  </div>
+    </div>
+  </header>
+
+  <main class="main-inicio">
+    <section>
+          <h1>Mis Mascotas</h1>
+          <p>Sitio web creado para la representacion de mis mascotas. En cada seccion se
+          van a encontrar con fotos e informacion sobre ellas, ademas de tener una parte
+          extra relacionada a las pulgas y/o garrapatas.</p>
+          <h3>Compartir en:</h3>
+          <div class="social">
+            <ul>
+             <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+             <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+             <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+             <li><a href="https://www.gmail.com" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+          </div>
+    </section>
     </div>
     <img id="img1" src="img/fondo/principal.png" alt="">
-  </div>
+  </main>
   </body>
 </html>
