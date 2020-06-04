@@ -259,12 +259,9 @@
 }
 
 .header-contacto{
-  background-image: url(../img/Fondo/fondo7.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: black;
   width: 80%;
   margin: 0px auto;
-  height: 1%;
   color: white;
   margin-top: 20px;
 }
@@ -324,8 +321,8 @@
 #img1-contacto{
   width: 35%;
   float: left;
-  position: relative;
-  top: 2vw;
+  position: inherit;
+  padding-top: 18px;
 }
 
 #img2-contacto{
@@ -350,12 +347,13 @@
 
 .formulario-contacto input{
   width: 100%;
-  padding: 0.7em;
+  padding: 0.5em;
   border: none;
   background: none;
   border-bottom: 1px solid black;
   color: black;
   font-size: 3vw;
+  outline: 0;
 }
 
 .formulario-contacto textarea{
@@ -366,6 +364,7 @@
   border-bottom: 1px solid black;
   color: black;
   font-size: 2vw;
+  outline: 0;
 }
 
 ::placeholder{
@@ -403,7 +402,7 @@
 }
 
 .button-contacto button:hover{
-  background-color: #0D3C17;
+  background-color: #5E635F;
   color: black;
 }
 
@@ -513,7 +512,7 @@ iframe{
   #img1-contacto{
     width: 35%;
     float: left;
-    position: static;
+    position: inherit;
   }
 
   #img2-contacto{
@@ -524,84 +523,86 @@ iframe{
   }
 
   .formulario-contacto{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     padding: 1em;
+    margin-top: 20px;
   }
 
   .formulario-contacto label{
-    padding: 1em;
+    font-size: 1.8vw;
+    margin-top: 20px;
   }
 
-
-  .formulario-contacto input{
-    width: 100%;
-    padding: 1em;
-    border: none;
-    background: none;
-    border-bottom: 1px solid black;
-    color: black;
-    font-size: 3vw;
-  }
-
-  .formulario-contacto textarea{
-    width: 100%;
-    padding: 1em;
-    border: none;
-    background: none;
-    border-bottom: 1px solid black;
-    color: black;
-    font-size: 2vw;
-  }
-
-  ::placeholder{
-    color: white;
-  }
-
-  .contener-contacto h1{
-    width: 80%;
-    margin: auto;
-    color: black;
-    font-size: 7vw;
-    text-align: center;
-  }
-
-  .contener-contacto span{
+  .formulario-contacto label span{
     color: #0D3C17;
   }
 
-  .contact-general{
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+  .formulario-contacto form input{
     width: 80%;
-    margin: 0px auto;
+    margin: 0;
+    font-size: 1.8vw;
+    padding: .3em;
   }
 
-  .contact-general > *{
-    padding: 1em;
+  .formulario-contacto button{
+    width: 70%;
+    padding: .5em;
+    outline: 0;
+  }
+
+  .formulario-contacto textarea{
+    width: 90%;
+    outline: 0;
+    padding: .3em;
+  }
+
+  .formulario-contacto form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .block-contacto{
+   grid-column: 1 / 3;
+   margin-top: 40px;
+  }
+
+  .contacto-general{
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .7);
+    width: 85%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
   }
 
   .button-contacto button{
     background-color: black;
     color: #0D3C17;
-    width: 100%;
-    height: 6vw;
+    width: 92%;
+    height: 8vw;
     font-size: 3vw;
+    outline: 0;
+    margin-top: 70px;
   }
 
-  .button-contacto:hover{
-    background-color: #0D3C17;
+  .button-contacto button:hover{
+    background-color: #5E635F;
     color: black;
   }
 
   iframe{
     width: 80%;
     height: 300%;
+    margin: 30px;
+  }
+
+  .mas-info-contacto{
+    background: black;
+    color: white;
   }
 
   .mas-info-contacto h4{
-    text-decoration: underline;
-    text-decoration-color: #0D3C17;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   .mas-info-contacto {
@@ -611,25 +612,28 @@ iframe{
 
   .mas-info-contacto ul{
     list-style: none;
-    padding: 0;
+    padding: 20px;
   }
 
   .mas-info-contacto ul li{
     padding: .3em;
-    font-size: 3vw;
+    font-size: 2vw;
   }
 
   .fa-map-marker-alt,
   .fa-mobile-alt,
   .fa-envelope{
     color: #0D3C17;
-    font-size: 4vw;
+    font-size: 2vw;
   }
 
   .texto-contacto{
-    font-size: 3vw;
+    margin-top: 20px;
   }
 
+  .div-form-contacto{
+    margin-top: 40px;
+  }
 }
 
 /* Fin del responsive design Desktops and Laptops */
