@@ -1,3 +1,5 @@
+/* INICIO DEL CSS */
+
 /* Css para el inicio */
 
 /* Responsive design Celular (inicio)*/
@@ -209,7 +211,6 @@
 #img1-inicio{
   width: 200%;
   height: 420px;
-  padding-top: 18%;
 }
 
 .social-inicio a{
@@ -685,7 +686,7 @@ iframe{
   cursor: pointer;
 }
 
-.header-contacto a:hover{
+.header-acerca a:hover{
   background-color: #58575A;
   color: black;
 }
@@ -860,3 +861,109 @@ iframe{
 /* Fin de responsive design Desktops and Laptos (acerca)*/
 
 /* Fin del css para acerca */
+
+.body-preguntas{
+  background-color: black;
+  width: 100%;
+  height: 180vw;
+}
+
+.header-preguntas{
+  width: 100%;
+  height: 20vw;
+}
+
+.conteder-preguntas{
+  overflow: hidden;
+}
+
+.contenedor-preguntas h3 a{
+  float: left;
+  color: white;
+  margin: 20px 20px;
+  font-size: 8vw;
+  text-decoration: none;
+}
+
+#menu-bar-preguntas{
+  display: none;
+}
+
+.contenedor-preguntas label{
+  color: white;
+  font-size: 8vw;
+  float: right;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+.header-preguntas a:hover{
+  background-color: #58575A;
+  color: black;
+}
+
+#menu-bar-preguntas:checked ~ .menu-preguntas {
+  transform: translateX(0%);
+}
+
+.menu-preguntas {
+  position: absolute;
+  top: 20vw;
+  width: 90%;
+  transition: all 0.5s;
+  transform: translateX(-120%);
+  background-color: black;
+  color: white;
+}
+
+.menu-preguntas li{
+  list-style: none;
+}
+
+.menu-preguntas a{
+  display: block;
+  color: white;
+  height: 1vh;
+  text-decoration: none;
+  padding: 28px;
+  font-size: 5vw;
+}
+
+.titulo-preguntas{
+  color: white;
+  font-size: 11vw;
+  margin-top: 20px;
+  padding: 3px;
+}
+
+.preg{
+  color: white;
+}
+
+.resp{
+  color: white;
+}
+
+#img-preguntas{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Comienzo del css para preguntas */
+
+/* Responsive design Celular (preguntas)*/
+
+
+
+/* Fin de responsive design Celular (preguntas)*/
+
+/* Responsive design Desktops and Laptos (preguntas)*/
+
+
+
+/* Fin de responsive design Desktops and Laptos (preguntas)*/
+
+/* Fin del css para preguntas */
+
+/* FIN DEL CSS */
