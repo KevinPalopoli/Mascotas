@@ -1,6 +1,6 @@
 /* Css para el inicio */
 
-/* Responsive design Celular */
+/* Responsive design Celular (inicio)*/
 
 * {
   margin: 0;
@@ -38,7 +38,7 @@
   display: none;
 }
 
-#menu-bar-inicio:checked ~ .menu {
+#menu-bar-inicio:checked ~ .menu-inicio {
   transform: translateX(0%);
 }
 
@@ -133,9 +133,9 @@
   color: black;
 }
 
-/* Fin de responsive design Celular */
+/* Fin de responsive design Celular (inicio)*/
 
-/* Responsive design Desktops and Laptops */
+/* Responsive design Desktops and Laptops (inicio)*/
 
 @media only screen and (min-width:1224px) {
 
@@ -237,7 +237,7 @@
 
 }
 
-/* Fin de responsive design Desktops and Laptos */
+/* Fin de responsive design Desktops and Laptos (inicio)*/
 
 /* Fin del css para el inicio */
 
@@ -246,6 +246,8 @@
 
 
 /* Comienzo del css para contacto */
+
+/* Responsive design Celular (contacto)*/
 
 .body-contacto{
   background-image: url(../img/fondo/fondo-contacto.jpg);
@@ -323,6 +325,7 @@
   float: left;
   position: inherit;
   padding-top: 18px;
+  margin-top: -10px;
 }
 
 #img2-contacto{
@@ -408,7 +411,7 @@
 
 iframe{
   width: 80%;
-  height: 300%;
+  height: 25vw;
 }
 
 .mas-info-contacto h4{
@@ -449,7 +452,9 @@ iframe{
   font-size: 3vw;
 }
 
-/* Responsive design Desktops and Laptops */
+/* Fin de responsive design Celular (contacto)*/
+
+/* Responsive design Desktops and Laptops (contacto)*/
 
 @media only screen and (min-width:1224px){
 
@@ -636,6 +641,222 @@ iframe{
   }
 }
 
-/* Fin del responsive design Desktops and Laptops */
+/* Fin de responsive design Desktops and Laptos (contacto)*/
 
 /* Fin del css para contacto */
+
+
+
+
+
+/* Comienzo del css para acerca */
+
+/* Responsive design Celular (acerca)*/
+
+.body-acerca{
+  background-image: url(../img/fondo/fondo-acercas-cel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 180vw;
+}
+
+.conteder-acerca{
+  overflow: hidden;
+}
+
+.contenedor-acerca h3 a{
+  float: left;
+  color: white;
+  margin: 20px 20px;
+  font-size: 8vw;
+  text-decoration: none;
+}
+
+#menu-bar-acerca{
+  display: none;
+}
+
+.contenedor-acerca label{
+  color: white;
+  font-size: 8vw;
+  float: right;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+.header-contacto a:hover{
+  background-color: #58575A;
+  color: black;
+}
+
+#menu-bar-acerca:checked ~ .menu-acerca {
+  transform: translateX(0%);
+}
+
+.menu-acerca {
+  position: absolute;
+  top: 68vw;
+  left: 20px;
+  width: 90%;
+  transition: all 0.5s;
+  transform: translateX(-120%);
+  background-image: url(../img/fondo/imagen-menu-acercas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-acerca li{
+  list-style: none;
+}
+
+.menu-acerca a{
+  display: block;
+  color: white;
+  height: 1vh;
+  text-decoration: none;
+  padding: 28px;
+  font-size: 5vw;
+}
+
+#img-principal-acerca{
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.contenedor-final-acerca {
+  margin-left: 20px;
+  width: 90%;
+}
+
+.contenedor-final-acerca h1{
+  color: white;
+  font-size: 10vw;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.contenedor-final-acerca p{
+  text-align: center;
+  color: white;
+  font-size: 7vw;
+}
+
+.contenedor-final-acerca h3{
+  color: white;
+  font-size: 6vw;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* Fin de responsive design Celular (acerca) */
+
+/* Responsive design Desktops and Laptops (acerca)*/
+
+@media only screen and (min-width:1224px){
+
+  .body-acerca{
+    background-image: url(../img/fondo/fondo-acerca.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .contenedor-acerca {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+    height: 5vw;
+  }
+
+  .header-acerca h3 a{
+      float: left;
+      font-size: 1.6vw;
+      color: black;
+      padding-top: 5px;
+    }
+
+  .header-acerca h3 a:hover{
+      background-color: #58575A;
+      color: white;
+      padding: 5px;
+    }
+
+    .header-acerca li a{
+      font-size: 1.2vw;
+      color: black;
+    }
+
+    .header-acerca li a:hover{
+        background-color: #58575A;
+        color: white;
+        padding: 25px 20px;
+      }
+
+    #menu-bar-acerca {
+      display: none;
+    }
+
+    #menu-bar-acerca:checked ~ .menu-acerca {
+      display: none;
+    }
+
+    .header-acerca label {
+      display: none;
+    }
+
+    .menu-acerca {
+      position: static;
+      transform: translateX(0%);
+      display: contents;
+      overflow: hidden;
+    }
+
+    .menu-acerca li{
+      float: right;
+      list-style: none;
+    }
+
+    .menu-acerca a{
+      font-size: 1.2vw;
+      width: auto;
+      height: auto;
+      border: none;
+    }
+
+    #img-principal-acerca{
+      display: none;
+    }
+
+    .contenedor-final-acerca {
+      margin-left: 20px;
+      width: 28%;
+    }
+
+    .contenedor-final-acerca h1{
+      color: black;
+      font-size: 4vw;
+      padding-top: 40px;
+      padding-bottom: 20px;
+    }
+
+    .contenedor-final-acerca p{
+      text-align: left;
+      color: black;
+      font-size: 2vw;
+      padding-top: 10px;
+    }
+
+    .contenedor-final-acerca h3{
+      color: black;
+      font-size: 2vw;
+      padding-top: 20px;
+      text-align: left;
+    }
+
+}
+
+/* Fin de responsive design Desktops and Laptos (acerca)*/
+
+/* Fin del css para acerca */
