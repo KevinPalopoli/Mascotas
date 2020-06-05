@@ -862,6 +862,14 @@ iframe{
 
 /* Fin del css para acerca */
 
+
+
+
+
+/* Comienzo del css para preguntas */
+
+/* Responsive design Celular (preguntas)*/
+
 .body-preguntas{
   background-color: black;
   width: 100%;
@@ -931,36 +939,143 @@ iframe{
 
 .titulo-preguntas{
   color: white;
-  font-size: 11vw;
+  font-size: 10vw;
   margin-top: 20px;
-  padding: 3px;
+  line-height: 9vw;
 }
 
 .preg{
   color: white;
+  font-size: 5vw;
+  padding-top: 25px;
 }
 
 .resp{
   color: white;
+  font-size: 4vw;
 }
 
 #img-preguntas{
   display: block;
   margin: 0 auto;
+  width: 70%;
 }
 
-
-/* Comienzo del css para preguntas */
-
-/* Responsive design Celular (preguntas)*/
-
-
+.final-preguntas{
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 /* Fin de responsive design Celular (preguntas)*/
 
 /* Responsive design Desktops and Laptos (preguntas)*/
 
+@media only screen and (min-width:1224px){
 
+  .body-preguntas{
+    height: 100%;
+  }
+
+  .contenedor-preguntas {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 20px;
+    height: 5vw;
+    color: white;
+  }
+
+  .header-preguntas{
+    height: 5vw;
+  }
+
+  .header-preguntas h3 a{
+      float: left;
+      font-size: 1.6vw;
+      color: black;
+      padding-top: 5px;
+    }
+
+  .header-preguntas h3 a:hover{
+      background-color: black;
+      color: white;
+      padding: 15px 15px;
+      margin-top: 6px;
+    }
+
+    .header-preguntas li a{
+      font-size: 1.2vw;
+      color: black;
+    }
+
+    .header-preguntas li a:hover{
+        background-color: black;
+        color: white;
+        padding: 20px 20px;
+        margin-top: 4px;
+      }
+
+    #menu-bar-preguntas {
+      display: none;
+    }
+
+    #menu-bar-preguntas:checked ~ .menu-preguntas {
+      display: none;
+    }
+
+    .header-preguntas label {
+      display: none;
+    }
+
+    .menu-preguntas {
+      position: static;
+      transform: translateX(0%);
+      display: contents;
+      overflow: hidden;
+    }
+
+    .menu-preguntas li{
+      float: right;
+      list-style: none;
+    }
+
+    .menu-preguntas a{
+      font-size: 1.2vw;
+      width: auto;
+      height: auto;
+      border: none;
+    }
+
+    .final-preguntas{
+      overflow: hidden;
+    }
+
+    .final-preguntas h1{
+      margin-top: 4vw;
+      font-size: 7vw;
+    }
+
+    .flotador{
+      float: left;
+    }
+
+    .preg{
+      font-size: 2vw;
+      margin-left: 50px;
+    }
+
+    .resp{
+      font-size: 2vw;
+      margin-left: 50px;
+    }
+
+    #img-preguntas{
+      float: left;
+      width: 25%;
+      display: block;
+      margin-left: 20vw;
+    }
+
+}
 
 /* Fin de responsive design Desktops and Laptos (preguntas)*/
 
