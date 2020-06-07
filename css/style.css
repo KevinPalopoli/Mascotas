@@ -10,7 +10,7 @@
 }
 
 .body-inicio{
-  background-image: url(../img/Fondo/fondo7.png);
+  background-image: url(../img/Fondo/fondo1.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -30,7 +30,7 @@
 
 .contenedor-inicio h3 a{
   float: left;
-  color: white;
+  color: #6DCD5A;
   text-decoration: none;
   font-size: 8vw;
   margin: 6px 10px;
@@ -89,6 +89,10 @@
   padding-top: 5%;
 }
 
+.main-inicio h1 span{
+  color: #6DCD5A;
+}
+
 .main-inicio p{
   color: white;
   font-size: 6vw;
@@ -128,11 +132,17 @@
 
 .menu-inicio a:hover{
   background-color: gray;
+  color: #6DCD5A;
 }
 
 .menu-inicio h3 a:hover{
   background-color: gray;
-  color: black;
+  color: white;
+}
+
+.section-inicio h3{
+  text-decoration: underline;
+  text-decoration-color: #6DCD5A;
 }
 
 /* Fin de responsive design Celular (inicio)*/
@@ -142,7 +152,7 @@
 @media only screen and (min-width:1224px) {
 
 .body-inicio{
-    width: 85%;
+    width: 84%;
     margin: 0 auto;
   }
 
@@ -153,7 +163,8 @@
 .contenedor-inicio h3 a{
   float: left;
   font-size: 1.7vw;
-  margin-top: 15px;
+  padding: 10px;
+  color: #6DCD5A;
 }
 
 .contenedor-inicio h3 a:hover{
@@ -198,6 +209,10 @@
   padding-top: 5%;
 }
 
+.main-inicio h1 span{
+  color: #6DCD5A;
+}
+
 .main-inicio p{
   font-size: 2vw;
   padding-top: 3%;
@@ -217,6 +232,14 @@
   font-size: 3vw;
 }
 
+.social-inicio a:active {
+  color: gray;
+}
+
+.social-inicio a:hover {
+  color: #6DCD5A;
+}
+
 .section-inicio{
   width: 50%;
   float: left;
@@ -224,7 +247,7 @@
 
 .section-inicio h3{
   text-decoration: underline;
-  text-emphasis-color: white;
+  text-decoration-color: #6DCD5A;
 }
 
 .img-final-inicio {
@@ -232,8 +255,18 @@
   width: 30%;
 }
 
+.contenedor-inicio h3 a:hover{
+  background-color: gray;
+  color: white;
+}
+
 .menu-inicio a:hover{
   background-color: gray;
+  color: #6DCD5A;
+}
+
+.menu-inicio a:active{
+  color: black;
 }
 
 }
@@ -265,20 +298,20 @@
   background-color: black;
   width: 80%;
   margin: 0px auto;
-  color: white;
+  color: #0D3C17;
   margin-top: 20px;
 }
 
 .header-contacto h3 a{
   float: left;
-  color: white;
+  color: #0D3C17;
   text-decoration: none;
   font-size: 8vw;
   margin: 10px 20px;
 }
 
 .header-contacto a:hover{
-  background-color: #58575A;
+  background-color: white;
   color: black;
 }
 
@@ -305,7 +338,7 @@
   margin-left: 10vw;
   transition: all 0.5s;
   transform: translateX(-120%);
-  background-color: #5E635F;
+  background-color: #0D3C17;
 }
 
 .menu-contacto li{
@@ -346,6 +379,10 @@
 .formulario-contacto label{
   padding: 1em;
   font-size: 3vw;
+}
+
+.formulario-contacto label span{
+  color: #0D3C17;
 }
 
 
@@ -416,14 +453,20 @@ iframe{
 }
 
 .mas-info-contacto h4{
+  color: white;
   text-decoration: underline;
   text-decoration-color: #0D3C17;
   font-size: 4vw;
 }
 
+.mas-info-contacto h4 span{
+  color: #0D3C17;
+}
+
 .mas-info-contacto {
   text-align: center;
   margin: 0 0 1rem 0;
+  color: white;
 }
 
 .mas-info-contacto ul{
@@ -445,6 +488,14 @@ iframe{
 
 .texto-contacto{
   font-size: 3vw;
+}
+
+.texto-contacto span{
+  color: #0D3C17;
+}
+
+.mas-info-contacto label span{
+  color: #0D3C17;
 }
 
 .texto-contacto-subr{
@@ -471,17 +522,23 @@ iframe{
 .header-contacto h3 a{
     font-size: 1.6vw;
     padding: 15px;
+    color: #0D3C17;
   }
 
 .header-contacto h3 a:hover{
-    background-color: #58575A;
+    background-color: white;
     color: black;
   }
 
+  .header-contacto li a{
+    color: gray;
+  }
+
   .header-contacto li a:hover{
-      background-color: #58575A;
-      color: white;
+      background-color: white;
+      color: #0D3C17;
       padding: 20px;
+      margin-top: 10px;
     }
 
   #menu-bar-contacto {
@@ -611,6 +668,10 @@ iframe{
     font-size: 3vw;
   }
 
+  .mas-info-contacto h4 span{
+    color: #0D3C17;
+  }
+
   .mas-info-contacto {
     text-align: center;
     margin: 0 0 1rem 0;
@@ -626,6 +687,10 @@ iframe{
     font-size: 2vw;
   }
 
+  .mas-info-contacto label span{
+    color: #0D3C17;
+  }
+
   .fa-map-marker-alt,
   .fa-mobile-alt,
   .fa-envelope{
@@ -635,6 +700,10 @@ iframe{
 
   .texto-contacto{
     margin-top: 20px;
+  }
+
+  .texto-contacto span{
+    color: #0D3C17;
   }
 
   .div-form-contacto{
@@ -668,7 +737,7 @@ iframe{
 
 .contenedor-acerca h3 a{
   float: left;
-  color: white;
+  color: #0785E2;
   margin: 20px 20px;
   font-size: 8vw;
   text-decoration: none;
@@ -679,7 +748,7 @@ iframe{
 }
 
 .contenedor-acerca label{
-  color: white;
+  color: #0785E2;
   font-size: 8vw;
   float: right;
   margin: 20px 20px;
@@ -732,7 +801,7 @@ iframe{
 }
 
 .contenedor-final-acerca h1{
-  color: white;
+  color: #F0FF00;
   font-size: 10vw;
   padding-top: 20px;
   padding-bottom: 10px;
@@ -740,7 +809,7 @@ iframe{
 
 .contenedor-final-acerca p{
   text-align: center;
-  color: white;
+  color: #F0FF00;
   font-size: 7vw;
 }
 
@@ -766,7 +835,7 @@ iframe{
 
   .contenedor-acerca {
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(70, 11, 4, 0.9);
     margin-top: 20px;
     height: 5vw;
   }
@@ -774,23 +843,25 @@ iframe{
   .header-acerca h3 a{
       float: left;
       font-size: 1.6vw;
-      color: black;
+      color: #0785E2;
+      margin-top: 18px;
       padding-top: 5px;
     }
 
   .header-acerca h3 a:hover{
-      background-color: #58575A;
+      background-color: black;
       color: white;
       padding: 5px;
     }
 
     .header-acerca li a{
-      font-size: 1.2vw;
-      color: black;
+      font-size: 1.5vw;
+      color: #0785E2;
+      margin-top: -4px;
     }
 
     .header-acerca li a:hover{
-        background-color: #58575A;
+        background-color: black;
         color: white;
         padding: 25px 20px;
       }
@@ -836,10 +907,14 @@ iframe{
     }
 
     .contenedor-final-acerca h1{
-      color: black;
+      color: #480404;
       font-size: 4vw;
       padding-top: 40px;
       padding-bottom: 20px;
+    }
+
+    .contenedor-final-acerca h1 span{
+      color: #0785E2;
     }
 
     .contenedor-final-acerca p{
@@ -850,7 +925,7 @@ iframe{
     }
 
     .contenedor-final-acerca h3{
-      color: black;
+      color: #0785E2;
       font-size: 2vw;
       padding-top: 20px;
       text-align: left;
@@ -881,13 +956,16 @@ iframe{
   height: 20vw;
 }
 
-.conteder-preguntas{
+.contenedor-preguntas {
   overflow: hidden;
+  background-color: rgba(66, 180, 125, 0.9);
+  margin-top: 20px;
+  height: 18vw;
 }
 
 .contenedor-preguntas h3 a{
   float: left;
-  color: white;
+  color: #560B7E;
   margin: 20px 20px;
   font-size: 8vw;
   text-decoration: none;
@@ -898,7 +976,7 @@ iframe{
 }
 
 .contenedor-preguntas label{
-  color: white;
+  color: #560B7E;
   font-size: 8vw;
   float: right;
   margin: 20px 20px;
@@ -906,7 +984,6 @@ iframe{
 }
 
 .header-preguntas a:hover{
-  background-color: #58575A;
   color: black;
 }
 
@@ -916,11 +993,11 @@ iframe{
 
 .menu-preguntas {
   position: absolute;
-  top: 20vw;
-  width: 90%;
+  top: 22vw;
+  width: 100%;
   transition: all 0.5s;
   transform: translateX(-120%);
-  background-color: black;
+  background-color: #8542B4;
   color: white;
 }
 
@@ -951,7 +1028,7 @@ iframe{
 }
 
 .resp{
-  color: white;
+  color: gray;
   font-size: 4vw;
 }
 
@@ -959,11 +1036,21 @@ iframe{
   display: block;
   margin: 0 auto;
   width: 70%;
+  margin-top: 15px;
 }
 
 .final-preguntas{
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.final-preguntas h1 span{
+  color: gray;
+}
+
+.final-preguntas h1{
+  text-decoration: underline;
+  text-decoration-color: #42B47D;
 }
 
 /* Fin de responsive design Celular (preguntas)*/
@@ -978,7 +1065,7 @@ iframe{
 
   .contenedor-preguntas {
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(66, 180, 125, 0.9);
     margin-top: 20px;
     height: 5vw;
     color: white;
@@ -990,28 +1077,28 @@ iframe{
 
   .header-preguntas h3 a{
       float: left;
-      font-size: 1.6vw;
-      color: black;
-      padding-top: 5px;
+      font-size: 1.8vw;
+      color: #560B7E;
     }
 
   .header-preguntas h3 a:hover{
       background-color: black;
       color: white;
       padding: 15px 15px;
-      margin-top: 6px;
+      margin-top: 4px;
     }
 
     .header-preguntas li a{
-      font-size: 1.2vw;
-      color: black;
+      font-size: 1.6vw;
+      color: #560B7E;
+      margin-top: -8px;
     }
 
     .header-preguntas li a:hover{
         background-color: black;
         color: white;
         padding: 20px 20px;
-        margin-top: 4px;
+        margin-top: 1px;
       }
 
     #menu-bar-preguntas {
@@ -1020,6 +1107,15 @@ iframe{
 
     #menu-bar-preguntas:checked ~ .menu-preguntas {
       display: none;
+    }
+
+    .titulo-preguntas{
+      text-decoration: underline;
+      text-decoration-color: #42B47D;
+    }
+
+    .titulo-preguntas span{
+      color: gray;
     }
 
     .header-preguntas label {
@@ -1056,6 +1152,7 @@ iframe{
 
     .flotador{
       float: left;
+      width: 50%;
     }
 
     .preg{
@@ -1064,15 +1161,16 @@ iframe{
     }
 
     .resp{
-      font-size: 2vw;
+      font-size: 1.6vw;
       margin-left: 50px;
+      color: gray;
     }
 
     #img-preguntas{
       float: left;
       width: 25%;
       display: block;
-      margin-left: 20vw;
+      margin-left: 15vw;
     }
 
 }
@@ -1080,5 +1178,242 @@ iframe{
 /* Fin de responsive design Desktops and Laptos (preguntas)*/
 
 /* Fin del css para preguntas */
+
+
+
+
+
+
+/* Comienzo del css para garrapatas */
+
+/* Responsive design Celular (garrapatas) */
+
+.body-garrapatas{
+  background-image: url(../img/fondo/fondo-garrapatas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.header-garrapatas{
+  width: 100%;
+  height: 20vw;
+}
+
+.conteder-garrapatas{
+  overflow: hidden;
+}
+
+.contenedor-garrapatas h3 a{
+  float: left;
+  color: black;
+  margin: 20px 20px;
+  font-size: 8vw;
+  text-decoration: none;
+}
+
+#menu-bar-garrapatas{
+  display: none;
+}
+
+.contenedor-garrapatas label{
+  color: black;
+  font-size: 8vw;
+  float: right;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+.header-garrapatas a:hover{
+  background-color: #58575A;
+  color: black;
+}
+
+#menu-bar-garrapatas:checked ~ .menu-garrapatas {
+  transform: translateX(0%);
+}
+
+.menu-garrapatas {
+  position: absolute;
+  top: 20vw;
+  left: 5vw;
+  width: 90%;
+  transition: all 0.5s;
+  transform: translateX(-120%);
+  background-color: black;
+  color: white;
+}
+
+.menu-garrapatas li{
+  list-style: none;
+}
+
+.menu-garrapatas a{
+  display: block;
+  color: white;
+  height: 1vh;
+  text-decoration: none;
+  padding: 28px;
+  font-size: 5vw;
+}
+
+.final-garrapatas{
+  margin: 20px;
+}
+
+.final-garrapatas h1{
+  font-size: 10vw;
+  line-height: 9vw;
+}
+
+.final-garrapatas h2{
+  font-size: 8vw;
+  margin-top: 20px;
+}
+
+.final-garrapatas p{
+  font-size: 5vw;
+  margin-top: 10px;
+}
+
+#img-garrapatas{
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 7vw;
+}
+
+#img-pulgas{
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 7vw;
+}
+
+/* Fin de responsive design Celular (garrapatas) */
+
+/* Responsive design Desktops and Laptos (garrapatas)*/
+
+@media only screen and (min-width:1224px){
+
+  .header-garrapatas{
+    height: 4vw;
+  }
+
+  .contenedor-garrapatas {
+    overflow: hidden;
+  }
+
+  .contenedor-garrapatas h3 a{
+    float: left;
+    font-size: 1.7vw;
+    padding: 10px;
+    margin-left: 6vw;
+  }
+
+  .contenedor-garrapatas h3 a:hover{
+      background-color: gray;
+      color: white;
+  }
+
+  #menu-bar-garrapatas {
+    display: none;
+  }
+
+  .header-garrapatas label {
+    display: none;
+  }
+
+  .menu-garrapatas{
+    position: static;
+    transform: translateX(0%);
+    display: contents;
+    overflow: hidden;
+  }
+
+  .menu-garrapatas li{
+    float: left;
+    list-style: none;
+  }
+
+  .menu-garrapatas a{
+    color: black;
+    font-size: 1.5vw;
+    width: auto;
+    height: auto;
+    border: none;
+  }
+
+  .menu-garrapatas a:hover{
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .final-garrapatas{
+    margin-left: 50px;
+    overflow: hidden;
+  }
+
+  .final-garrapatas h1{
+    font-size: 5vw;
+  }
+
+  .final-garrapatas h2{
+    font-size: 4vw;
+    margin-top: 10px;
+  }
+
+  .final-garrapatas p{
+    float: left;
+    font-size: 2vw;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  #img-garrapatas{
+    float: left;
+    width: 17%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 5vw;
+  }
+
+  #img-pulgas{
+    float: left;
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 5vw;
+  }
+
+}
+
+/* Fin de responsive design Desktops and Laptos (garrapatas)*/
+
+/* Fin del css para garrapatas */
+
+
+
+
+
+/* Comienzo del css para mascotas */
+
+/* Responsive design Celular (mascotas) */
+
+/* Fin de responsive design Celular (mascotas) */
+
+/* Responsive design Desktops and Laptos (mascotas)*/
+
+@media only screen and (min-width:1224px){
+
+}
+
+/* Fin de responsive design Desktops and Laptos (mascotas)*/
+
+/* Fin del css para mascotas */
 
 /* FIN DEL CSS */

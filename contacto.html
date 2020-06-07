@@ -2,11 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
+
+    <!-- Responsive design -->
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1,
     maximum-scale=1, minimum-scale=1">
+
     <title>Contacto</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Iconos -->
     <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <!-- Javascript -->
+    <script src="js/contacto.js"></script>
+
   </head>
   <body class="body-contacto">
     <header class="header-contacto">
@@ -30,13 +39,15 @@
       <h1>Contact <span>Us</span></h1>
     </div>
     <div class="contacto-general">
+
+      <!-- Formulario -->
     <div class="formulario-contacto">
-      <form action="contacto.html" method="post">
+      <form action="contacto.html" method="post" onsubmit="return validar()">
         <div class="div-form-contacto">
           <div class="">
             <label for="nombre"><span>N</span>ombre:</label>
             <div>
-          <input type="text" name="nombre" placeholder="Ingrese su nombre">
+          <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
            </div>
           </div>
           </div>
@@ -44,7 +55,7 @@
             <div class="">
               <label for="apellido"><span>A</span>pellido:</label>
               <div>
-            <input type="text" name="apellido" placeholder="Ingrese su apellido">
+            <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
              </div>
             </div>
             </div>
@@ -52,7 +63,7 @@
               <div class="">
                 <label for="email"><span>E</span>mail:</label>
                 <div>
-              <input type="email" name="email" placeholder="Ingrese su email">
+              <input type="email" name="email" id="email" placeholder="Ingrese su email">
                </div>
               </div>
               </div>
@@ -60,7 +71,7 @@
                 <div class="">
                   <label for="numero"><span>N</span>umero:</label>
                   <div>
-                <input type="tel" name="numero" placeholder="Ingrese su numero">
+                <input type="tel" name="numero" id="numero" placeholder="Ingrese su numero">
                  </div>
                 </div>
                 </div>
@@ -68,7 +79,7 @@
                   <div class="button">
                     <label for="mensaje"><span>M</span>ensaje:</label>
                     <div>
-                  <textarea name="name" rows="1" placeholder="Deje un mensaje"></textarea>
+                  <textarea name="name" id="mensaje" rows="1" placeholder="Deje un mensaje"></textarea>
                    </div>
                   </div>
                   </div>
@@ -79,8 +90,9 @@
                   </div>
       </form>
     </div>
+
     <div class="mas-info-contacto">
-      <h4>Mas informacion:</h4>
+      <h4><span>M</span>as informacion:</h4>
       <ul>
         <li><i class="fas fa-map-marker-alt"></i>Calle falsa 123</li>
         <li><i class="fas fa-mobile-alt"></i>1101234567</li>
@@ -88,12 +100,12 @@
       </ul>
     <div class="col-lg-7 col-sm-12 centroz mapa">
       <div>
-      <label class="texto-contacto-subr" for="mapa">Donde estamos:</label>
+      <label class="texto-contacto-subr" for="mapa"><span>D</span>onde estamos:</label>
       </div>
       <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13132.578090016908!2d-58.39241119134243!3d-34.6257879357225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2520946ad7%3A0x531f8f8d460384ad!2sConstituci%C3%B3n%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1573686917354!5m2!1ses-419!2sar">
         </iframe>
-        <p class="texto-contacto">MyPets.com</p>
+        <p class="texto-contacto"><span>M</span>yPets.com</p>
   </div>
 </div>
     </div>
