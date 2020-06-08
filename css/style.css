@@ -332,7 +332,7 @@
 
 .menu-contacto {
   position: absolute;
-  top: 32vw;
+  top: 27vw;
   left: 0;
   width: 80%;
   margin-left: 10vw;
@@ -357,7 +357,7 @@
 #img1-contacto{
   width: 35%;
   float: left;
-  position: inherit;
+  position: relative;
   padding-top: 18px;
   margin-top: -10px;
 }
@@ -738,7 +738,7 @@ iframe{
 .contenedor-acerca h3 a{
   float: left;
   color: #0785E2;
-  margin: 20px 20px;
+  margin: 5vw 5vw;
   font-size: 8vw;
   text-decoration: none;
 }
@@ -751,7 +751,7 @@ iframe{
   color: #0785E2;
   font-size: 8vw;
   float: right;
-  margin: 20px 20px;
+  margin: 5vw 5vw;
   cursor: pointer;
 }
 
@@ -767,7 +767,7 @@ iframe{
 .menu-acerca {
   position: absolute;
   top: 68vw;
-  left: 20px;
+  left: 5vw;
   width: 90%;
   transition: all 0.5s;
   transform: translateX(-120%);
@@ -783,10 +783,10 @@ iframe{
 .menu-acerca a{
   display: block;
   color: white;
-  height: 1vh;
+  height: 2vh;
   text-decoration: none;
   padding: 28px;
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 #img-principal-acerca{
@@ -796,14 +796,14 @@ iframe{
 }
 
 .contenedor-final-acerca {
-  margin-left: 20px;
+  margin-left: 5vw;
   width: 90%;
 }
 
 .contenedor-final-acerca h1{
   color: #F0FF00;
   font-size: 10vw;
-  padding-top: 20px;
+  padding-top: 5vw;
   padding-bottom: 10px;
 }
 
@@ -849,8 +849,8 @@ iframe{
     }
 
   .header-acerca h3 a:hover{
-      background-color: black;
-      color: white;
+      background-color: #0785E2;
+      color: #480404;
       padding: 5px;
     }
 
@@ -861,8 +861,8 @@ iframe{
     }
 
     .header-acerca li a:hover{
-        background-color: black;
-        color: white;
+        background-color: #0785E2;
+        color: #480404;
         padding: 25px 20px;
       }
 
@@ -948,7 +948,6 @@ iframe{
 .body-preguntas{
   background-color: black;
   width: 100%;
-  height: 180vw;
 }
 
 .header-preguntas{
@@ -966,7 +965,8 @@ iframe{
 .contenedor-preguntas h3 a{
   float: left;
   color: #560B7E;
-  margin: 20px 20px;
+  margin-top: 4vw;
+  margin-left: 8vw;
   font-size: 8vw;
   text-decoration: none;
 }
@@ -979,7 +979,7 @@ iframe{
   color: #560B7E;
   font-size: 8vw;
   float: right;
-  margin: 20px 20px;
+  margin: 4vw 8vw;
   cursor: pointer;
 }
 
@@ -993,8 +993,9 @@ iframe{
 
 .menu-preguntas {
   position: absolute;
-  top: 22vw;
+  top: 20vw;
   width: 100%;
+  height: 45vw;
   transition: all 0.5s;
   transform: translateX(-120%);
   background-color: #8542B4;
@@ -1010,7 +1011,7 @@ iframe{
   color: white;
   height: 1vh;
   text-decoration: none;
-  padding: 28px;
+  padding: 3vw;
   font-size: 5vw;
 }
 
@@ -1067,31 +1068,33 @@ iframe{
     overflow: hidden;
     background-color: rgba(66, 180, 125, 0.9);
     margin-top: 20px;
-    height: 5vw;
     color: white;
+    height: 4.8vw;
   }
 
   .header-preguntas{
-    height: 5vw;
+    height: auto;
   }
 
   .header-preguntas h3 a{
       float: left;
       font-size: 1.8vw;
       color: #560B7E;
+      margin-top: 1.3vw;
+      margin-left: 1.8vw;
     }
 
   .header-preguntas h3 a:hover{
       background-color: black;
       color: white;
-      padding: 15px 15px;
+      padding: 12px 12px;
       margin-top: 4px;
     }
 
     .header-preguntas li a{
-      font-size: 1.6vw;
+      font-size: 1.5vw;
       color: #560B7E;
-      margin-top: -8px;
+      margin-top: -1.4vw;
     }
 
     .header-preguntas li a:hover{
@@ -1206,8 +1209,8 @@ iframe{
 
 .contenedor-garrapatas h3 a{
   float: left;
-  color: black;
-  margin: 20px 20px;
+  color: #045171;
+  margin: 4vw 4vw;
   font-size: 8vw;
   text-decoration: none;
 }
@@ -1217,10 +1220,10 @@ iframe{
 }
 
 .contenedor-garrapatas label{
-  color: black;
+  color: #045171;
   font-size: 8vw;
   float: right;
-  margin: 20px 20px;
+  margin: 4vw 4vw;
   cursor: pointer;
 }
 
@@ -1235,9 +1238,10 @@ iframe{
 
 .menu-garrapatas {
   position: absolute;
-  top: 20vw;
-  left: 5vw;
-  width: 90%;
+  top: 14vw;
+  left: 4vw;
+  width: 92%;
+  height: 55%;
   transition: all 0.5s;
   transform: translateX(-120%);
   background-color: black;
@@ -1258,17 +1262,31 @@ iframe{
 }
 
 .final-garrapatas{
-  margin: 20px;
+  margin: 4vw;
 }
 
 .final-garrapatas h1{
-  font-size: 10vw;
+  font-size: 11vw;
   line-height: 9vw;
+}
+
+.final-garrapatas h2 span{
+  color: #045171;
 }
 
 .final-garrapatas h2{
   font-size: 8vw;
-  margin-top: 20px;
+  margin-top: 6vw;
+}
+
+.final-garrapatas h2{
+  text-decoration: underline;
+  text-decoration-color: #045171;
+}
+
+.final-garrapatas h3{
+  font-size: 7vw;
+  margin-top: 6vw;
 }
 
 .final-garrapatas p{
@@ -1290,6 +1308,12 @@ iframe{
   margin-top: 7vw;
 }
 
+#img-final{
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
 /* Fin de responsive design Celular (garrapatas) */
 
 /* Responsive design Desktops and Laptos (garrapatas)*/
@@ -1309,11 +1333,13 @@ iframe{
     font-size: 1.7vw;
     padding: 10px;
     margin-left: 6vw;
+    margin-top: 1.2vw;
   }
 
   .contenedor-garrapatas h3 a:hover{
-      background-color: gray;
+      background-color: #045171;
       color: white;
+      padding: 10px;
   }
 
   #menu-bar-garrapatas {
@@ -1337,7 +1363,7 @@ iframe{
   }
 
   .menu-garrapatas a{
-    color: black;
+    color: #045171;
     font-size: 1.5vw;
     width: auto;
     height: auto;
@@ -1346,7 +1372,7 @@ iframe{
 
   .menu-garrapatas a:hover{
     padding: 10px;
-    background-color: gray;
+    background-color: #045171;
     color: white;
     margin-top: 20px;
     margin-left: 20px;
@@ -1358,12 +1384,17 @@ iframe{
   }
 
   .final-garrapatas h1{
-    font-size: 5vw;
+    font-size: 6vw;
   }
 
   .final-garrapatas h2{
     font-size: 4vw;
-    margin-top: 10px;
+    margin-top: 4vw;
+  }
+
+  .final-garrapatas h3{
+    font-size: 3.5vw;
+    margin-top: 4vw;
   }
 
   .final-garrapatas p{
@@ -1385,6 +1416,14 @@ iframe{
   #img-pulgas{
     float: left;
     width: 15%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 5vw;
+  }
+
+  #img-final{
+    float: left;
+    width: 12%;
     display: block;
     margin: 0 auto;
     margin-left: 5vw;

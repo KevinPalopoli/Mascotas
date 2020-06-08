@@ -1,1 +1,1 @@
-alert("Bienvenido a MyPets, gracias por visitar la pagina!");
+alert("Bienvenido, gracias por visitar la pagina!");
