@@ -1848,9 +1848,28 @@ iframe{
 
 #video-dalila{
   width: 100%;
-  height: 50vw;
+  height: 47.5vw;
   padding-top: 0;
 }
+
+.boton-dalila{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5vw;
+  padding: 2vw;
+  text-decoration: none;
+  background-color: black;
+  color: #CC68F8;
+  border: none;
+}
+
+ .a-dalila{
+   text-decoration: none;
+ }
+
+ .fa-long-arrow-alt-left{
+   padding-right: 3vw;
+ }
 
 /* Fin de responsive design Celular (Dalila) */
 
@@ -1944,9 +1963,29 @@ iframe{
 
   #video-dalila{
     width: 100%;
-    height: 50vw;
+    height: 47.5vw;
     padding-top: 0;
+    margin-left: 0vw;
   }
+
+  .boton-dalila{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5vw;
+    padding: 1vw;
+    text-decoration: none;
+    background-color: black;
+    color: #CC68F8;
+    border: none;
+  }
+
+   .a-dalila{
+     text-decoration: none;
+   }
+
+   .fa-long-arrow-alt-left{
+     padding-right: 1vw;
+   }
 
 }
 
@@ -2058,9 +2097,24 @@ iframe{
 
 #video-modric{
   width: 100%;
-  height: 50vw;
+  height: 47.5vw;
   padding-top: 0;
 }
+
+.boton-modric{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5vw;
+  padding: 2vw;
+  text-decoration: none;
+  background-color: black;
+  color: #F868C0;
+  border: none;
+}
+
+ .a-modric{
+   text-decoration: none;
+ }
 
 /* Fin de responsive design Celular (Modric) */
 
@@ -2154,9 +2208,25 @@ iframe{
 
   #video-modric{
     width: 100%;
-    height: 50vw;
+    height: 47.5vw;
     padding-top: 0;
+    margin-left: 0vw;
   }
+
+  .boton-modric{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5vw;
+    padding: 1vw;
+    text-decoration: none;
+    background-color: black;
+    color: #F868C0;
+    border: none;
+  }
+
+   .a-modric{
+     text-decoration: none;
+   }
 
 }
 
@@ -2170,24 +2240,24 @@ iframe{
 
 /* Responsive design Celular (Orion) */
 
-.body-modric{
+.body-orion{
   width: 95%;
   margin: 0 auto;
-  background-color: #F868C0;
+  background-color: #910505;
 }
 
-.info-modric{
+.info-orion{
   width: 90%;
   margin: 0 auto;
   margin-top: 7vw;
 }
 
-.info-modric h4{
+.info-orion h4{
   text-align: center;
   font-size: 6vw;
 }
 
-.info-modric p{
+.info-orion p{
   margin-top: 6vw;
   font-size: 5vw;
 }
@@ -2198,7 +2268,7 @@ iframe{
   padding-right: 2vw;
 }
 
-.imagenes-modric{
+.imagenes-orion{
   overflow: hidden;
   width: 90%;
   margin: 0 auto;
@@ -2206,29 +2276,14 @@ iframe{
   margin-bottom: 6vw;
 }
 
-#img-1-modric{
+#img-1-orion{
   width: 48%;
   height: 40vw;
   float: left;
   padding-bottom: 3vw;
 }
 
-#img-2-modric{
-  width: 48%;
-  height: 40vw;
-  float: left;
-  padding-left: 3vw;
-  padding-bottom: 3vw;
-}
-
-#img-3-modric{
-  width: 48%;
-  height: 40vw;
-  float: left;
-  padding-bottom: 3vw;
-}
-
-#img-4-modric{
+#img-2-orion{
   width: 48%;
   height: 40vw;
   float: left;
@@ -2236,29 +2291,14 @@ iframe{
   padding-bottom: 3vw;
 }
 
-#img-5-modric{
+#img-3-orion{
   width: 48%;
   height: 40vw;
   float: left;
   padding-bottom: 3vw;
 }
 
-#img-6-modric{
-  width: 48%;
-  height: 40vw;
-  float: left;
-  padding-left: 3vw;
-  padding-bottom: 3vw;
-}
-
-#img-7-modric{
-  width: 48%;
-  height: 40vw;
-  float: left;
-  padding-bottom: 3vw;
-}
-
-#img-8-modric{
+#img-4-orion{
   width: 48%;
   height: 40vw;
   float: left;
@@ -2266,11 +2306,56 @@ iframe{
   padding-bottom: 3vw;
 }
 
-#video-modric{
+#img-5-orion{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-6-orion{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-7-orion{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-8-orion{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#video-orion{
   width: 100%;
-  height: 50vw;
+  height: 47.5vw;
   padding-top: 0;
 }
+
+.boton-orion{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5vw;
+  padding: 2vw;
+  text-decoration: none;
+  background-color: white;
+  color: #910505;
+  border: none;
+}
+
+ .a-orion{
+   text-decoration: none;
+ }
 
 /* Fin de responsive design Celular (Orion) */
 
@@ -2278,23 +2363,23 @@ iframe{
 
 @media only screen and (min-width:1224px){
 
-  .info-modric{
+  .info-orion{
     width: 90%;
     margin: 0 auto;
     margin-top: 3vw;
   }
 
-  .info-modric h4{
+  .info-orion h4{
     text-align: center;
     font-size: 3vw;
   }
 
-  .info-modric p{
+  .info-orion p{
     margin-top: 4vw;
     font-size: 2vw;
   }
 
-  .imagenes-modric{
+  .imagenes-orion{
     overflow: hidden;
     width: 90%;
     margin: 0 auto;
@@ -2302,29 +2387,14 @@ iframe{
     margin-bottom: 4vw;
   }
 
-  #img-1-modric{
+  #img-1-orion{
     width: 48%;
     height: 40vw;
     float: left;
     padding-bottom: 3vw;
   }
 
-  #img-2-modric{
-    width: 48%;
-    height: 40vw;
-    float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
-  }
-
-  #img-3-modric{
-    width: 48%;
-    height: 40vw;
-    float: left;
-    padding-bottom: 3vw;
-  }
-
-  #img-4-modric{
+  #img-2-orion{
     width: 48%;
     height: 40vw;
     float: left;
@@ -2332,29 +2402,14 @@ iframe{
     padding-bottom: 3vw;
   }
 
-  #img-5-modric{
+  #img-3-orion{
     width: 48%;
     height: 40vw;
     float: left;
     padding-bottom: 3vw;
   }
 
-  #img-6-modric{
-    width: 48%;
-    height: 40vw;
-    float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
-  }
-
-  #img-7-modric{
-    width: 48%;
-    height: 40vw;
-    float: left;
-    padding-bottom: 3vw;
-  }
-
-  #img-8-modric{
+  #img-4-orion{
     width: 48%;
     height: 40vw;
     float: left;
@@ -2362,11 +2417,56 @@ iframe{
     padding-bottom: 3vw;
   }
 
-  #video-modric{
+  #img-5-orion{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-6-orion{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-7-orion{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-8-orion{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #video-orion{
     width: 100%;
-    height: 50vw;
+    height: 47.5vw;
     padding-top: 0;
   }
+
+  .boton-orion{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5vw;
+    padding: 1vw;
+    text-decoration: none;
+    background-color: white;
+    color: #910505;
+    border: none;
+  }
+
+   .a-orion{
+     text-decoration: none;
+   }
 
 }
 
@@ -2380,24 +2480,24 @@ iframe{
 
 /* Responsive design Celular (Rusito) */
 
-.body-modric{
+.body-rusito{
   width: 95%;
   margin: 0 auto;
-  background-color: #F868C0;
+  background-color: #8BE05E;
 }
 
-.info-modric{
+.info-rusito{
   width: 90%;
   margin: 0 auto;
   margin-top: 7vw;
 }
 
-.info-modric h4{
+.info-rusito h4{
   text-align: center;
   font-size: 6vw;
 }
 
-.info-modric p{
+.info-rusito p{
   margin-top: 6vw;
   font-size: 5vw;
 }
@@ -2408,7 +2508,7 @@ iframe{
   padding-right: 2vw;
 }
 
-.imagenes-modric{
+.imagenes-rusito{
   overflow: hidden;
   width: 90%;
   margin: 0 auto;
@@ -2416,29 +2516,14 @@ iframe{
   margin-bottom: 6vw;
 }
 
-#img-1-modric{
+#img-1-rusito{
   width: 48%;
   height: 40vw;
   float: left;
   padding-bottom: 3vw;
 }
 
-#img-2-modric{
-  width: 48%;
-  height: 40vw;
-  float: left;
-  padding-left: 3vw;
-  padding-bottom: 3vw;
-}
-
-#img-3-modric{
-  width: 48%;
-  height: 40vw;
-  float: left;
-  padding-bottom: 3vw;
-}
-
-#img-4-modric{
+#img-2-rusito{
   width: 48%;
   height: 40vw;
   float: left;
@@ -2446,29 +2531,14 @@ iframe{
   padding-bottom: 3vw;
 }
 
-#img-5-modric{
+#img-3-rusito{
   width: 48%;
   height: 40vw;
   float: left;
   padding-bottom: 3vw;
 }
 
-#img-6-modric{
-  width: 48%;
-  height: 40vw;
-  float: left;
-  padding-left: 3vw;
-  padding-bottom: 3vw;
-}
-
-#img-7-modric{
-  width: 48%;
-  height: 40vw;
-  float: left;
-  padding-bottom: 3vw;
-}
-
-#img-8-modric{
+#img-4-rusito{
   width: 48%;
   height: 40vw;
   float: left;
@@ -2476,11 +2546,56 @@ iframe{
   padding-bottom: 3vw;
 }
 
-#video-modric{
+#img-5-rusito{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-6-rusito{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-7-rusito{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-8-rusito{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#video-rusito{
   width: 100%;
-  height: 50vw;
+  height: 47.5vw;
   padding-top: 0;
 }
+
+.boton-rusito{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5vw;
+  padding: 2vw;
+  text-decoration: none;
+  background-color: black;
+  color: #8BE05E;
+  border: none;
+}
+
+ .a-rusito{
+   text-decoration: none;
+ }
 
 /* Fin de responsive design Celular (Rusito) */
 
@@ -2488,23 +2603,23 @@ iframe{
 
 @media only screen and (min-width:1224px){
 
-  .info-modric{
+  .info-rusito{
     width: 90%;
     margin: 0 auto;
     margin-top: 3vw;
   }
 
-  .info-modric h4{
+  .info-rusito h4{
     text-align: center;
     font-size: 3vw;
   }
 
-  .info-modric p{
+  .info-rusito p{
     margin-top: 4vw;
     font-size: 2vw;
   }
 
-  .imagenes-modric{
+  .imagenes-rusito{
     overflow: hidden;
     width: 90%;
     margin: 0 auto;
@@ -2512,29 +2627,14 @@ iframe{
     margin-bottom: 4vw;
   }
 
-  #img-1-modric{
+  #img-1-rusito{
     width: 48%;
     height: 40vw;
     float: left;
     padding-bottom: 3vw;
   }
 
-  #img-2-modric{
-    width: 48%;
-    height: 40vw;
-    float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
-  }
-
-  #img-3-modric{
-    width: 48%;
-    height: 40vw;
-    float: left;
-    padding-bottom: 3vw;
-  }
-
-  #img-4-modric{
+  #img-2-rusito{
     width: 48%;
     height: 40vw;
     float: left;
@@ -2542,29 +2642,14 @@ iframe{
     padding-bottom: 3vw;
   }
 
-  #img-5-modric{
+  #img-3-rusito{
     width: 48%;
     height: 40vw;
     float: left;
     padding-bottom: 3vw;
   }
 
-  #img-6-modric{
-    width: 48%;
-    height: 40vw;
-    float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
-  }
-
-  #img-7-modric{
-    width: 48%;
-    height: 40vw;
-    float: left;
-    padding-bottom: 3vw;
-  }
-
-  #img-8-modric{
+  #img-4-rusito{
     width: 48%;
     height: 40vw;
     float: left;
@@ -2572,11 +2657,57 @@ iframe{
     padding-bottom: 3vw;
   }
 
-  #video-modric{
+  #img-5-rusito{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-6-rusito{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-7-rusito{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-8-rusito{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #video-rusito{
     width: 100%;
-    height: 50vw;
+    height: 47.5vw;
     padding-top: 0;
+    margin-left: 0;
   }
+
+  .boton-rusito{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5vw;
+    padding: 1vw;
+    text-decoration: none;
+    background-color: black;
+    color: #8BE05E;
+    border: none;
+  }
+
+   .a-rusito{
+     text-decoration: none;
+   }
 
 }
 
@@ -2590,24 +2721,24 @@ iframe{
 
 /* Responsive design Celular (Sanson) */
 
-.body-modric{
+.body-sanson{
   width: 95%;
   margin: 0 auto;
-  background-color: #F868C0;
+  background-color: #68D7F8;
 }
 
-.info-modric{
+.info-sanson{
   width: 90%;
   margin: 0 auto;
   margin-top: 7vw;
 }
 
-.info-modric h4{
+.info-sanson h4{
   text-align: center;
   font-size: 6vw;
 }
 
-.info-modric p{
+.info-sanson p{
   margin-top: 6vw;
   font-size: 5vw;
 }
@@ -2618,7 +2749,7 @@ iframe{
   padding-right: 2vw;
 }
 
-.imagenes-modric{
+.imagenes-sanson{
   overflow: hidden;
   width: 90%;
   margin: 0 auto;
@@ -2626,29 +2757,14 @@ iframe{
   margin-bottom: 6vw;
 }
 
-#img-1-modric{
+#img-1-sanson{
   width: 48%;
   height: 40vw;
   float: left;
   padding-bottom: 3vw;
 }
 
-#img-2-modric{
-  width: 48%;
-  height: 40vw;
-  float: left;
-  padding-left: 3vw;
-  padding-bottom: 3vw;
-}
-
-#img-3-modric{
-  width: 48%;
-  height: 40vw;
-  float: left;
-  padding-bottom: 3vw;
-}
-
-#img-4-modric{
+#img-2-sanson{
   width: 48%;
   height: 40vw;
   float: left;
@@ -2656,29 +2772,14 @@ iframe{
   padding-bottom: 3vw;
 }
 
-#img-5-modric{
+#img-3-sanson{
   width: 48%;
   height: 40vw;
   float: left;
   padding-bottom: 3vw;
 }
 
-#img-6-modric{
-  width: 48%;
-  height: 40vw;
-  float: left;
-  padding-left: 3vw;
-  padding-bottom: 3vw;
-}
-
-#img-7-modric{
-  width: 48%;
-  height: 40vw;
-  float: left;
-  padding-bottom: 3vw;
-}
-
-#img-8-modric{
+#img-4-sanson{
   width: 48%;
   height: 40vw;
   float: left;
@@ -2686,11 +2787,56 @@ iframe{
   padding-bottom: 3vw;
 }
 
-#video-modric{
+#img-5-sanson{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-6-sanson{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-7-sanson{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-8-sanson{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#video-sanson{
   width: 100%;
-  height: 50vw;
+  height: 47.5vw;
   padding-top: 0;
 }
+
+.boton-sanson{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5vw;
+  padding: 2vw;
+  text-decoration: none;
+  background-color: black;
+  color: #68D7F8;
+  border: none;
+}
+
+ .a-sanson{
+   text-decoration: none;
+ }
 
 /* Fin de responsive design Celular (Sanson) */
 
@@ -2698,23 +2844,23 @@ iframe{
 
 @media only screen and (min-width:1224px){
 
-  .info-modric{
+  .info-sanson{
     width: 90%;
     margin: 0 auto;
     margin-top: 3vw;
   }
 
-  .info-modric h4{
+  .info-sanson h4{
     text-align: center;
     font-size: 3vw;
   }
 
-  .info-modric p{
+  .info-sanson p{
     margin-top: 4vw;
     font-size: 2vw;
   }
 
-  .imagenes-modric{
+  .imagenes-sanson{
     overflow: hidden;
     width: 90%;
     margin: 0 auto;
@@ -2722,29 +2868,14 @@ iframe{
     margin-bottom: 4vw;
   }
 
-  #img-1-modric{
+  #img-1-sanson{
     width: 48%;
     height: 40vw;
     float: left;
     padding-bottom: 3vw;
   }
 
-  #img-2-modric{
-    width: 48%;
-    height: 40vw;
-    float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
-  }
-
-  #img-3-modric{
-    width: 48%;
-    height: 40vw;
-    float: left;
-    padding-bottom: 3vw;
-  }
-
-  #img-4-modric{
+  #img-2-sanson{
     width: 48%;
     height: 40vw;
     float: left;
@@ -2752,29 +2883,14 @@ iframe{
     padding-bottom: 3vw;
   }
 
-  #img-5-modric{
+  #img-3-sanson{
     width: 48%;
     height: 40vw;
     float: left;
     padding-bottom: 3vw;
   }
 
-  #img-6-modric{
-    width: 48%;
-    height: 40vw;
-    float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
-  }
-
-  #img-7-modric{
-    width: 48%;
-    height: 40vw;
-    float: left;
-    padding-bottom: 3vw;
-  }
-
-  #img-8-modric{
+  #img-4-sanson{
     width: 48%;
     height: 40vw;
     float: left;
@@ -2782,11 +2898,57 @@ iframe{
     padding-bottom: 3vw;
   }
 
-  #video-modric{
+  #img-5-sanson{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-6-sanson{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-7-sanson{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-8-sanson{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #video-sanson{
     width: 100%;
-    height: 50vw;
+    height: 47.5vw;
     padding-top: 0;
+    margin-left: 0;
   }
+
+  .boton-sanson{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5vw;
+    padding: 1vw;
+    text-decoration: none;
+    background-color: black;
+    color: #68D7F8;
+    border: none;
+  }
+
+   .a-sanson{
+     text-decoration: none;
+   }
 
 }
 
@@ -2800,24 +2962,24 @@ iframe{
 
 /* Responsive design Celular (Tom) */
 
-.body-modric{
+.body-tom{
   width: 95%;
   margin: 0 auto;
-  background-color: #F868C0;
+  background-color: #F5F529;
 }
 
-.info-modric{
+.info-tom{
   width: 90%;
   margin: 0 auto;
   margin-top: 7vw;
 }
 
-.info-modric h4{
+.info-tom h4{
   text-align: center;
   font-size: 6vw;
 }
 
-.info-modric p{
+.info-tom p{
   margin-top: 6vw;
   font-size: 5vw;
 }
@@ -2828,7 +2990,7 @@ iframe{
   padding-right: 2vw;
 }
 
-.imagenes-modric{
+.imagenes-tom{
   overflow: hidden;
   width: 90%;
   margin: 0 auto;
@@ -2836,29 +2998,14 @@ iframe{
   margin-bottom: 6vw;
 }
 
-#img-1-modric{
+#img-1-tom{
   width: 48%;
   height: 40vw;
   float: left;
   padding-bottom: 3vw;
 }
 
-#img-2-modric{
-  width: 48%;
-  height: 40vw;
-  float: left;
-  padding-left: 3vw;
-  padding-bottom: 3vw;
-}
-
-#img-3-modric{
-  width: 48%;
-  height: 40vw;
-  float: left;
-  padding-bottom: 3vw;
-}
-
-#img-4-modric{
+#img-2-tom{
   width: 48%;
   height: 40vw;
   float: left;
@@ -2866,29 +3013,14 @@ iframe{
   padding-bottom: 3vw;
 }
 
-#img-5-modric{
+#img-3-tom{
   width: 48%;
   height: 40vw;
   float: left;
   padding-bottom: 3vw;
 }
 
-#img-6-modric{
-  width: 48%;
-  height: 40vw;
-  float: left;
-  padding-left: 3vw;
-  padding-bottom: 3vw;
-}
-
-#img-7-modric{
-  width: 48%;
-  height: 40vw;
-  float: left;
-  padding-bottom: 3vw;
-}
-
-#img-8-modric{
+#img-4-tom{
   width: 48%;
   height: 40vw;
   float: left;
@@ -2896,11 +3028,56 @@ iframe{
   padding-bottom: 3vw;
 }
 
-#video-modric{
+#img-5-tom{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-6-tom{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-7-tom{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-8-tom{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#video-tom{
   width: 100%;
-  height: 50vw;
+  height: 47.5vw;
   padding-top: 0;
 }
+
+.boton-tom{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5vw;
+  padding: 2vw;
+  text-decoration: none;
+  background-color: black;
+  color: #F5F529;
+  border: none;
+}
+
+ .a-tom{
+   text-decoration: none;
+ }
 
 /* Fin de responsive design Celular (Tom) */
 
@@ -2908,23 +3085,23 @@ iframe{
 
 @media only screen and (min-width:1224px){
 
-  .info-modric{
+  .info-tom{
     width: 90%;
     margin: 0 auto;
     margin-top: 3vw;
   }
 
-  .info-modric h4{
+  .info-tom h4{
     text-align: center;
     font-size: 3vw;
   }
 
-  .info-modric p{
+  .info-tom p{
     margin-top: 4vw;
     font-size: 2vw;
   }
 
-  .imagenes-modric{
+  .imagenes-tom{
     overflow: hidden;
     width: 90%;
     margin: 0 auto;
@@ -2932,29 +3109,14 @@ iframe{
     margin-bottom: 4vw;
   }
 
-  #img-1-modric{
+  #img-1-tom{
     width: 48%;
     height: 40vw;
     float: left;
     padding-bottom: 3vw;
   }
 
-  #img-2-modric{
-    width: 48%;
-    height: 40vw;
-    float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
-  }
-
-  #img-3-modric{
-    width: 48%;
-    height: 40vw;
-    float: left;
-    padding-bottom: 3vw;
-  }
-
-  #img-4-modric{
+  #img-2-tom{
     width: 48%;
     height: 40vw;
     float: left;
@@ -2962,29 +3124,14 @@ iframe{
     padding-bottom: 3vw;
   }
 
-  #img-5-modric{
+  #img-3-tom{
     width: 48%;
     height: 40vw;
     float: left;
     padding-bottom: 3vw;
   }
 
-  #img-6-modric{
-    width: 48%;
-    height: 40vw;
-    float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
-  }
-
-  #img-7-modric{
-    width: 48%;
-    height: 40vw;
-    float: left;
-    padding-bottom: 3vw;
-  }
-
-  #img-8-modric{
+  #img-4-tom{
     width: 48%;
     height: 40vw;
     float: left;
@@ -2992,16 +3139,60 @@ iframe{
     padding-bottom: 3vw;
   }
 
-  #video-modric{
+  #img-5-tom{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-6-tom{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-7-tom{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-8-tom{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #video-tom{
     width: 100%;
-    height: 50vw;
+    height: 47.5vw;
     padding-top: 0;
+    margin-left: 0;
   }
+
+  .boton-tom{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5vw;
+    padding: 1vw;
+    text-decoration: none;
+    background-color: black;
+    color: #F5F529;
+    border: none;
+  }
+
+   .a-tom{
+     text-decoration: none;
+   }
 
 }
 
 /* Fin de responsive design Desktops and Laptos (Tom)*/
-
-/* Fin del css para mascotas */
 
 /* FIN DEL CSS */
