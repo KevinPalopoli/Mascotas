@@ -636,6 +636,7 @@ iframe{
     margin: 0px auto;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    margin-bottom: 5vw;
   }
 
   .button-contacto button{
@@ -1672,6 +1673,7 @@ iframe{
       color: #3AE89E;
       font-size: 2vw;
       text-align: center;
+      margin-top: 1vw;
     }
 
     .mascotas-final{
@@ -1680,59 +1682,1325 @@ iframe{
       overflow: hidden;
       margin-bottom: 5vw;
       margin-top: 5vw;
-      padding-bottom: 3vw;
+      padding-bottom: 2vw;
     }
 
     #img-dalila{
       display: block;
       margin: 0 auto;
-      width: 30%;
+      width: 29%;
       margin-top: 2vw;
     }
 
     #img-rusito{
       display: block;
       margin: 0 auto;
-      width: 25%;
+      width: 25.5%;
       margin-top: 2vw;
     }
 
     #img-sanson{
       display: block;
       margin: 0 auto;
-      width: 25%;
+      width: 24%;
       margin-top: 2vw;
     }
 
     #img-modric{
       display: block;
       margin: 0 auto;
-      width: 25%;
+      width: 24%;
       margin-top: 2vw;
     }
 
     #img-tom{
       display: block;
       margin: 0 auto;
-      width: 28%;
+      width: 30%;
       margin-top: 2vw;
     }
 
     #img-orion{
       display: block;
       margin: 0 auto;
-      width: 27%;
+      width: 28%;
       margin-top: 2vw;
     }
 
     .mascotas-final section{
-      width: 50%;
+      width: 48%;
       float: left;
+      border: solid 1px;
+      color: #3AE89E;
+      margin-left: 1vw;
+      margin-top: 1.5vw;
     }
 
 }
 
 /* Fin de responsive design Desktops and Laptos (mascotas)*/
+
+/* Fin del css para mascotas */
+
+
+
+
+
+/* Comienzo del css para Dalila: ; */
+
+/* Responsive design Celular (Dalila) */
+
+.body-dalila{
+  width: 95%;
+  margin: 0 auto;
+  background-color: #CC68F8;
+}
+
+.info-dalila{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 7vw;
+}
+
+.info-dalila h4{
+  text-align: center;
+  font-size: 6vw;
+}
+
+.info-dalila p{
+  margin-top: 6vw;
+  font-size: 5vw;
+}
+
+.fa-edit,
+.fa-calendar-alt,
+.fa-paw{
+  padding-right: 2vw;
+}
+
+.imagenes-dalila{
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+}
+
+#img-1-dalila{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-2-dalila{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-3-dalila{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-4-dalila{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-5-dalila{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-6-dalila{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-7-dalila{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-8-dalila{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#video-dalila{
+  width: 100%;
+  height: 50vw;
+  padding-top: 0;
+}
+
+/* Fin de responsive design Celular (Dalila) */
+
+/* Responsive design Desktops and Laptos (Dalila)*/
+
+@media only screen and (min-width:1224px){
+
+  .info-dalila{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3vw;
+  }
+
+  .info-dalila h4{
+    text-align: center;
+    font-size: 3vw;
+  }
+
+  .info-dalila p{
+    margin-top: 4vw;
+    font-size: 2vw;
+  }
+
+  .imagenes-dalila{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+  }
+
+  #img-1-dalila{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-2-dalila{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-3-dalila{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-4-dalila{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-5-dalila{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-6-dalila{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-7-dalila{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-8-dalila{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #video-dalila{
+    width: 100%;
+    height: 50vw;
+    padding-top: 0;
+  }
+
+}
+
+/* Fin de responsive design Desktops and Laptos (Dalila)*/
+
+
+
+
+
+/* Comienzo del css para Modric: ; */
+
+/* Responsive design Celular (Modric) */
+
+.body-modric{
+  width: 95%;
+  margin: 0 auto;
+  background-color: #F868C0;
+}
+
+.info-modric{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 7vw;
+}
+
+.info-modric h4{
+  text-align: center;
+  font-size: 6vw;
+}
+
+.info-modric p{
+  margin-top: 6vw;
+  font-size: 5vw;
+}
+
+.fa-edit,
+.fa-calendar-alt,
+.fa-paw{
+  padding-right: 2vw;
+}
+
+.imagenes-modric{
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+}
+
+#img-1-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-2-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-3-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-4-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-5-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-6-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-7-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-8-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#video-modric{
+  width: 100%;
+  height: 50vw;
+  padding-top: 0;
+}
+
+/* Fin de responsive design Celular (Modric) */
+
+/* Responsive design Desktops and Laptos (Modric)*/
+
+@media only screen and (min-width:1224px){
+
+  .info-modric{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3vw;
+  }
+
+  .info-modric h4{
+    text-align: center;
+    font-size: 3vw;
+  }
+
+  .info-modric p{
+    margin-top: 4vw;
+    font-size: 2vw;
+  }
+
+  .imagenes-modric{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+  }
+
+  #img-1-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-2-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-3-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-4-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-5-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-6-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-7-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-8-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #video-modric{
+    width: 100%;
+    height: 50vw;
+    padding-top: 0;
+  }
+
+}
+
+/* Fin de responsive design Desktops and Laptos (Modric)*/
+
+
+
+
+
+/* Comienzo del css para Orion: ; */
+
+/* Responsive design Celular (Orion) */
+
+.body-modric{
+  width: 95%;
+  margin: 0 auto;
+  background-color: #F868C0;
+}
+
+.info-modric{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 7vw;
+}
+
+.info-modric h4{
+  text-align: center;
+  font-size: 6vw;
+}
+
+.info-modric p{
+  margin-top: 6vw;
+  font-size: 5vw;
+}
+
+.fa-edit,
+.fa-calendar-alt,
+.fa-paw{
+  padding-right: 2vw;
+}
+
+.imagenes-modric{
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+}
+
+#img-1-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-2-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-3-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-4-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-5-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-6-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-7-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-8-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#video-modric{
+  width: 100%;
+  height: 50vw;
+  padding-top: 0;
+}
+
+/* Fin de responsive design Celular (Orion) */
+
+/* Responsive design Desktops and Laptos (Orion)*/
+
+@media only screen and (min-width:1224px){
+
+  .info-modric{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3vw;
+  }
+
+  .info-modric h4{
+    text-align: center;
+    font-size: 3vw;
+  }
+
+  .info-modric p{
+    margin-top: 4vw;
+    font-size: 2vw;
+  }
+
+  .imagenes-modric{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+  }
+
+  #img-1-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-2-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-3-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-4-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-5-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-6-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-7-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-8-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #video-modric{
+    width: 100%;
+    height: 50vw;
+    padding-top: 0;
+  }
+
+}
+
+/* Fin de responsive design Desktops and Laptos (Orion)*/
+
+
+
+
+
+/* Comienzo del css para Rusito: ; */
+
+/* Responsive design Celular (Rusito) */
+
+.body-modric{
+  width: 95%;
+  margin: 0 auto;
+  background-color: #F868C0;
+}
+
+.info-modric{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 7vw;
+}
+
+.info-modric h4{
+  text-align: center;
+  font-size: 6vw;
+}
+
+.info-modric p{
+  margin-top: 6vw;
+  font-size: 5vw;
+}
+
+.fa-edit,
+.fa-calendar-alt,
+.fa-paw{
+  padding-right: 2vw;
+}
+
+.imagenes-modric{
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+}
+
+#img-1-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-2-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-3-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-4-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-5-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-6-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-7-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-8-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#video-modric{
+  width: 100%;
+  height: 50vw;
+  padding-top: 0;
+}
+
+/* Fin de responsive design Celular (Rusito) */
+
+/* Responsive design Desktops and Laptos (Rusito)*/
+
+@media only screen and (min-width:1224px){
+
+  .info-modric{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3vw;
+  }
+
+  .info-modric h4{
+    text-align: center;
+    font-size: 3vw;
+  }
+
+  .info-modric p{
+    margin-top: 4vw;
+    font-size: 2vw;
+  }
+
+  .imagenes-modric{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+  }
+
+  #img-1-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-2-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-3-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-4-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-5-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-6-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-7-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-8-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #video-modric{
+    width: 100%;
+    height: 50vw;
+    padding-top: 0;
+  }
+
+}
+
+/* Fin de responsive design Desktops and Laptos (Rusito)*/
+
+
+
+
+
+/* Comienzo del css para Sanson: ; */
+
+/* Responsive design Celular (Sanson) */
+
+.body-modric{
+  width: 95%;
+  margin: 0 auto;
+  background-color: #F868C0;
+}
+
+.info-modric{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 7vw;
+}
+
+.info-modric h4{
+  text-align: center;
+  font-size: 6vw;
+}
+
+.info-modric p{
+  margin-top: 6vw;
+  font-size: 5vw;
+}
+
+.fa-edit,
+.fa-calendar-alt,
+.fa-paw{
+  padding-right: 2vw;
+}
+
+.imagenes-modric{
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+}
+
+#img-1-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-2-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-3-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-4-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-5-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-6-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-7-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-8-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#video-modric{
+  width: 100%;
+  height: 50vw;
+  padding-top: 0;
+}
+
+/* Fin de responsive design Celular (Sanson) */
+
+/* Responsive design Desktops and Laptos (Sanson)*/
+
+@media only screen and (min-width:1224px){
+
+  .info-modric{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3vw;
+  }
+
+  .info-modric h4{
+    text-align: center;
+    font-size: 3vw;
+  }
+
+  .info-modric p{
+    margin-top: 4vw;
+    font-size: 2vw;
+  }
+
+  .imagenes-modric{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+  }
+
+  #img-1-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-2-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-3-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-4-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-5-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-6-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-7-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-8-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #video-modric{
+    width: 100%;
+    height: 50vw;
+    padding-top: 0;
+  }
+
+}
+
+/* Fin de responsive design Desktops and Laptos (Sanson)*/
+
+
+
+
+
+/* Comienzo del css para Tom: ; */
+
+/* Responsive design Celular (Tom) */
+
+.body-modric{
+  width: 95%;
+  margin: 0 auto;
+  background-color: #F868C0;
+}
+
+.info-modric{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 7vw;
+}
+
+.info-modric h4{
+  text-align: center;
+  font-size: 6vw;
+}
+
+.info-modric p{
+  margin-top: 6vw;
+  font-size: 5vw;
+}
+
+.fa-edit,
+.fa-calendar-alt,
+.fa-paw{
+  padding-right: 2vw;
+}
+
+.imagenes-modric{
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+}
+
+#img-1-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-2-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-3-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-4-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-5-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-6-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#img-7-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-bottom: 3vw;
+}
+
+#img-8-modric{
+  width: 48%;
+  height: 40vw;
+  float: left;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+#video-modric{
+  width: 100%;
+  height: 50vw;
+  padding-top: 0;
+}
+
+/* Fin de responsive design Celular (Tom) */
+
+/* Responsive design Desktops and Laptos (Tom)*/
+
+@media only screen and (min-width:1224px){
+
+  .info-modric{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3vw;
+  }
+
+  .info-modric h4{
+    text-align: center;
+    font-size: 3vw;
+  }
+
+  .info-modric p{
+    margin-top: 4vw;
+    font-size: 2vw;
+  }
+
+  .imagenes-modric{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+  }
+
+  #img-1-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-2-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-3-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-4-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-5-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-6-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #img-7-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-bottom: 3vw;
+  }
+
+  #img-8-modric{
+    width: 48%;
+    height: 40vw;
+    float: left;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  #video-modric{
+    width: 100%;
+    height: 50vw;
+    padding-top: 0;
+  }
+
+}
+
+/* Fin de responsive design Desktops and Laptos (Tom)*/
 
 /* Fin del css para mascotas */
 
