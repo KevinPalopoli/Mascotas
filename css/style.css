@@ -1688,22 +1688,25 @@ iframe{
     #img-dalila{
       display: block;
       margin: 0 auto;
-      width: 29%;
+      width: 29.5%;
       margin-top: 2vw;
+      padding-bottom: 1.5vw;
     }
 
     #img-rusito{
       display: block;
       margin: 0 auto;
-      width: 25.5%;
+      width: 25%;
       margin-top: 2vw;
+      padding-bottom: 1.5vw;
     }
 
     #img-sanson{
       display: block;
       margin: 0 auto;
-      width: 24%;
+      width: 24.8%;
       margin-top: 2vw;
+      padding-bottom: 1.5vw;
     }
 
     #img-modric{
@@ -1711,6 +1714,7 @@ iframe{
       margin: 0 auto;
       width: 24%;
       margin-top: 2vw;
+      padding-bottom: 1.5vw;
     }
 
     #img-tom{
@@ -1718,6 +1722,7 @@ iframe{
       margin: 0 auto;
       width: 30%;
       margin-top: 2vw;
+      padding-bottom: 1.5vw;
     }
 
     #img-orion{
@@ -1725,6 +1730,7 @@ iframe{
       margin: 0 auto;
       width: 28%;
       margin-top: 2vw;
+      padding-bottom: 1.5vw;
     }
 
     .mascotas-final section{
@@ -1772,9 +1778,9 @@ iframe{
   font-size: 5vw;
 }
 
-.fa-edit,
-.fa-calendar-alt,
-.fa-paw{
+.info-dalila .fa-edit,
+.info-dalila .fa-calendar-alt,
+.info-dalila .fa-paw{
   padding-right: 2vw;
 }
 
@@ -1901,68 +1907,76 @@ iframe{
     margin-bottom: 4vw;
   }
 
-  #img-1-dalila{
-    width: 48%;
-    height: 40vw;
+  .div-1{
     float: left;
-    padding-bottom: 3vw;
+    width: 49%;
+  }
+
+  .div-2{
+    float: left;
+    width: 49%;
+  }
+
+  #img-1-dalila{
+    width: 47%;
+    height: 20vw;
+    float: left;
+    padding-bottom: 1vw;
   }
 
   #img-2-dalila{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
   }
 
   #img-3-dalila{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-bottom: 3vw;
   }
 
   #img-4-dalila{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
   }
 
   #img-5-dalila{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-bottom: 3vw;
+    padding-bottom: 1vw;
   }
 
   #img-6-dalila{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
   }
 
   #img-7-dalila{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
     padding-bottom: 3vw;
   }
 
   #img-8-dalila{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
+    padding-left: 1vw;
     padding-bottom: 3vw;
   }
 
   #video-dalila{
-    width: 100%;
+    width: 96%;
     height: 47.5vw;
     padding-top: 0;
     margin-left: 0vw;
@@ -2002,7 +2016,7 @@ iframe{
 .body-modric{
   width: 95%;
   margin: 0 auto;
-  background-color: #F868C0;
+  background-color: #FF9F61;
 }
 
 .info-modric{
@@ -2021,9 +2035,9 @@ iframe{
   font-size: 5vw;
 }
 
-.fa-edit,
-.fa-calendar-alt,
-.fa-paw{
+.info-modric .fa-edit,
+.info-modric .fa-calendar-alt,
+.info-modric .fa-paw{
   padding-right: 2vw;
 }
 
@@ -2108,7 +2122,7 @@ iframe{
   padding: 2vw;
   text-decoration: none;
   background-color: black;
-  color: #F868C0;
+  color: #FF9F61;
   border: none;
 }
 
@@ -2146,68 +2160,76 @@ iframe{
     margin-bottom: 4vw;
   }
 
-  #img-1-modric{
-    width: 48%;
-    height: 40vw;
+  .div-1{
     float: left;
-    padding-bottom: 3vw;
+    width: 49%;
+  }
+
+  .div-2{
+    float: left;
+    width: 49%;
+  }
+
+  #img-1-modric{
+    width: 47%;
+    height: 20vw;
+    float: left;
+    padding-bottom: 1vw;
   }
 
   #img-2-modric{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
   }
 
   #img-3-modric{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-bottom: 3vw;
   }
 
   #img-4-modric{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
   }
 
   #img-5-modric{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-bottom: 3vw;
+    padding-bottom: 1vw;
   }
 
   #img-6-modric{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
   }
 
   #img-7-modric{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
     padding-bottom: 3vw;
   }
 
   #img-8-modric{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
+    padding-left: 1vw;
     padding-bottom: 3vw;
   }
 
   #video-modric{
-    width: 100%;
+    width: 96%;
     height: 47.5vw;
     padding-top: 0;
     margin-left: 0vw;
@@ -2220,7 +2242,7 @@ iframe{
     padding: 1vw;
     text-decoration: none;
     background-color: black;
-    color: #F868C0;
+    color: #FF9F61;
     border: none;
   }
 
@@ -2262,9 +2284,9 @@ iframe{
   font-size: 5vw;
 }
 
-.fa-edit,
-.fa-calendar-alt,
-.fa-paw{
+.info-orion .fa-edit,
+.info-orion .fa-calendar-alt,
+.info-orion .fa-paw{
   padding-right: 2vw;
 }
 
@@ -2387,70 +2409,79 @@ iframe{
     margin-bottom: 4vw;
   }
 
-  #img-1-orion{
-    width: 48%;
-    height: 40vw;
+  .div-1{
     float: left;
-    padding-bottom: 3vw;
+    width: 49%;
+  }
+
+  .div-2{
+    float: left;
+    width: 49%;
+  }
+
+  #img-1-orion{
+    width: 47%;
+    height: 20vw;
+    float: left;
+    padding-bottom: 1vw;
   }
 
   #img-2-orion{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
   }
 
   #img-3-orion{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-bottom: 3vw;
   }
 
   #img-4-orion{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
   }
 
   #img-5-orion{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-bottom: 3vw;
+    padding-bottom: 1vw;
   }
 
   #img-6-orion{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
   }
 
   #img-7-orion{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
     padding-bottom: 3vw;
   }
 
   #img-8-orion{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
+    padding-left: 1vw;
     padding-bottom: 3vw;
   }
 
   #video-orion{
-    width: 100%;
+    width: 96%;
     height: 47.5vw;
     padding-top: 0;
+    margin-left: 0vw;
   }
 
   .boton-orion{
@@ -2502,9 +2533,9 @@ iframe{
   font-size: 5vw;
 }
 
-.fa-edit,
-.fa-calendar-alt,
-.fa-paw{
+.info-rusito .fa-edit,
+.info-rusito .fa-calendar-alt,
+.info-rusito .fa-paw{
   padding-right: 2vw;
 }
 
@@ -2627,71 +2658,79 @@ iframe{
     margin-bottom: 4vw;
   }
 
-  #img-1-rusito{
-    width: 48%;
-    height: 40vw;
+  .div-1{
     float: left;
-    padding-bottom: 3vw;
+    width: 49%;
+  }
+
+  .div-2{
+    float: left;
+    width: 49%;
+  }
+
+  #img-1-rusito{
+    width: 47%;
+    height: 20vw;
+    float: left;
+    padding-bottom: 1vw;
   }
 
   #img-2-rusito{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
   }
 
   #img-3-rusito{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-bottom: 3vw;
   }
 
   #img-4-rusito{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
   }
 
   #img-5-rusito{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-bottom: 3vw;
+    padding-bottom: 1vw;
   }
 
   #img-6-rusito{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
   }
 
   #img-7-rusito{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
     padding-bottom: 3vw;
   }
 
   #img-8-rusito{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
+    padding-left: 1vw;
     padding-bottom: 3vw;
   }
 
   #video-rusito{
-    width: 100%;
+    width: 96%;
     height: 47.5vw;
     padding-top: 0;
-    margin-left: 0;
+    margin-left: 0vw;
   }
 
   .boton-rusito{
@@ -2743,9 +2782,9 @@ iframe{
   font-size: 5vw;
 }
 
-.fa-edit,
-.fa-calendar-alt,
-.fa-paw{
+.info-sanson .fa-edit,
+.info-sanson .fa-calendar-alt,
+.info-sanson .fa-paw{
   padding-right: 2vw;
 }
 
@@ -2817,7 +2856,7 @@ iframe{
   padding-bottom: 3vw;
 }
 
-#video-sanson{
+#img-9-sanson{
   width: 100%;
   height: 47.5vw;
   padding-top: 0;
@@ -2868,71 +2907,79 @@ iframe{
     margin-bottom: 4vw;
   }
 
-  #img-1-sanson{
-    width: 48%;
-    height: 40vw;
+  .div-1{
     float: left;
-    padding-bottom: 3vw;
+    width: 49%;
+  }
+
+  .div-2{
+    float: left;
+    width: 49%;
+  }
+
+  #img-1-sanson{
+    width: 47%;
+    height: 20vw;
+    float: left;
+    padding-bottom: 1vw;
   }
 
   #img-2-sanson{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
   }
 
   #img-3-sanson{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-bottom: 3vw;
   }
 
   #img-4-sanson{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
   }
 
   #img-5-sanson{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-bottom: 3vw;
+    padding-bottom: 1vw;
   }
 
   #img-6-sanson{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
   }
 
   #img-7-sanson{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
     padding-bottom: 3vw;
   }
 
   #img-8-sanson{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
+    padding-left: 1vw;
     padding-bottom: 3vw;
   }
 
-  #video-sanson{
-    width: 100%;
-    height: 47.5vw;
+  #img-9-sanson{
+    width: 96%;
+    height: 35vw;
     padding-top: 0;
-    margin-left: 0;
+    margin-left: 0vw;
   }
 
   .boton-sanson{
@@ -2984,9 +3031,9 @@ iframe{
   font-size: 5vw;
 }
 
-.fa-edit,
-.fa-calendar-alt,
-.fa-paw{
+.info-dalila .fa-edit,
+.info-dalila .fa-calendar-alt,
+.info-dalila .fa-paw{
   padding-right: 2vw;
 }
 
@@ -3059,9 +3106,11 @@ iframe{
 }
 
 #video-tom{
-  width: 100%;
-  height: 47.5vw;
+  width: 84%;
+  height: 40vw;
   padding-top: 0;
+  display: block;
+  margin: 0 auto;
 }
 
 .boton-tom{
@@ -3109,71 +3158,81 @@ iframe{
     margin-bottom: 4vw;
   }
 
-  #img-1-tom{
-    width: 48%;
-    height: 40vw;
+  .div-1{
     float: left;
-    padding-bottom: 3vw;
+    width: 49%;
+  }
+
+  .div-2{
+    float: left;
+    width: 49%;
+  }
+
+  #img-1-tom{
+    width: 47%;
+    height: 20vw;
+    float: left;
+    padding-bottom: 1vw;
   }
 
   #img-2-tom{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
   }
 
   #img-3-tom{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-bottom: 3vw;
   }
 
   #img-4-tom{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
   }
 
   #img-5-tom{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-bottom: 3vw;
+    padding-bottom: 1vw;
   }
 
   #img-6-tom{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
-    padding-bottom: 3vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
   }
 
   #img-7-tom{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
     padding-bottom: 3vw;
   }
 
   #img-8-tom{
-    width: 48%;
-    height: 40vw;
+    width: 47%;
+    height: 20vw;
     float: left;
-    padding-left: 3vw;
+    padding-left: 1vw;
     padding-bottom: 3vw;
   }
 
   #video-tom{
-    width: 100%;
-    height: 47.5vw;
+    width: 54%;
+    height: 25vw;
     padding-top: 0;
-    margin-left: 0;
+    margin-left: 0vw;
+    display: block;
+    margin: 0 auto;
   }
 
   .boton-tom{
