@@ -1,34 +1,34 @@
 /* INICIO DEL CSS */
 
-/* Css para el inicio */
+/* Css para el index */
 
-/* Responsive design Celular (inicio)*/
+/* Responsive design Celular (index)*/
 
 * {
   margin: 0;
   padding: 0;
 }
 
-.body-inicio{
-  background-image: url(../img/Fondo/fondo1.png);
+.body-index{
+  background-image: url(../img/fondo/fondo1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 150%;
 }
 
-.header-inicio {
+.header-index {
   width: 100%;
   height: 50px;
   color: white;
   margin-top: 20px;
 }
 
-.contenedor-inicio {
+.contenedor-index {
   width: 98%;
   margin: auto;
 }
 
-.contenedor-inicio h3 a{
+.contenedor-index h3 a{
   float: left;
   color: #6DCD5A;
   text-decoration: none;
@@ -36,26 +36,26 @@
   margin: 6px 10px;
 }
 
-#menu-bar-inicio {
+#menu-bar-index {
   display: none;
 }
 
-#menu-bar-inicio:checked ~ .menu-inicio {
+#menu-bar-index:checked ~ .menu-index {
   transform: translateX(0%);
 }
 
-.header-inicio label {
+.header-index label {
   float: right;
   font-size: 8vw;
   margin: 6px 10px;
   cursor: pointer;
 }
 
-.header-inicio .contenedor-inicio{
+.header-index .contenedor-index{
   display: table;
 }
 
-.menu-inicio {
+.menu-index {
   position: absolute;
   top: 15vw;
   left: 0;
@@ -65,7 +65,7 @@
   background-color: #5E635F;
 }
 
-.menu-inicio a{
+.menu-index a{
   display: block;
   color: white;
   height: 30px;
@@ -73,56 +73,56 @@
   padding: 17px;
 }
 
-.main-inicio {
+.main-index {
     margin-top: 15px;
     margin-left: 15px;
   }
 
-.main-inicio section{
+.main-index section{
   width: 100%;
   margin-bottom: 25px;
 }
 
-.main-inicio h1 {
+.main-index h1 {
   color: white;
   font-size: 14vw;
   padding-top: 5%;
 }
 
-.main-inicio h1 span{
+.main-index h1 span{
   color: #6DCD5A;
 }
 
-.main-inicio p{
+.main-index p{
   color: white;
   font-size: 6vw;
   padding-top: 10px;
 }
 
-.main-inicio h3{
+.main-index h3{
   color: white;
   padding-top: 30px;
   font-size: 8vw;
 }
 
-#img1-inicio{
+#img1-index{
   width: 100%;
   height: 40%;
   margin: auto;
 }
 
-.social-inicio ul{
+.social-index ul{
   list-style-type: none;
   margin: 0px;
   overflow: hidden;
 }
 
-.social-inicio li{
+.social-index li{
   float: left;
   padding-top: 10px;
 }
 
-.social-inicio a{
+.social-index a{
   color: white;
   text-decoration: none;
   padding-top: 100px;
@@ -130,150 +130,150 @@
   font-size: 6vw;
 }
 
-.menu-inicio a:hover{
+.menu-index a:hover{
   background-color: gray;
   color: #6DCD5A;
 }
 
-.menu-inicio h3 a:hover{
+.menu-index h3 a:hover{
   background-color: gray;
   color: white;
 }
 
-.section-inicio h3{
+.section-index h3{
   text-decoration: underline;
   text-decoration-color: #6DCD5A;
 }
 
-/* Fin de responsive design Celular (inicio)*/
+/* Fin de responsive design Celular (index)*/
 
-/* Responsive design Desktops and Laptops (inicio)*/
+/* Responsive design Desktops and Laptops (index)*/
 
 @media only screen and (min-width:1224px) {
 
-.body-inicio{
+.body-index{
     width: 84%;
     margin: 0 auto;
   }
 
-.contenedor-inicio {
+.contenedor-index {
   overflow: hidden;
 }
 
-.contenedor-inicio h3 a{
+.contenedor-index h3 a{
   float: left;
   font-size: 1.7vw;
   padding: 10px;
   color: #6DCD5A;
 }
 
-.contenedor-inicio h3 a:hover{
+.contenedor-index h3 a:hover{
     background-color: gray;
     color: black;
 }
 
-#menu-bar-inicio {
+#menu-bar-index {
   display: none;
 }
 
-.header-inicio label {
+.header-index label {
   display: none;
 }
 
-.menu-inicio{
+.menu-index{
   position: static;
   transform: translateX(0%);
   display: contents;
   overflow: hidden;
 }
 
-.menu-inicio li{
+.menu-index li{
   float: left;
   list-style: none;
 }
 
-.menu-inicio a{
+.menu-index a{
   font-size: 1.5vw;
   width: auto;
   height: auto;
   border: none;
 }
 
-.main-inicio {
+.main-index {
     margin-top: 8%;;
     margin-left: 8%;
   }
 
-.main-inicio h1 {
+.main-index h1 {
   font-size: 6vw;
   padding-top: 5%;
 }
 
-.main-inicio h1 span{
+.main-index h1 span{
   color: #6DCD5A;
 }
 
-.main-inicio p{
+.main-index p{
   font-size: 2vw;
   padding-top: 3%;
 }
 
-.main-inicio h3{
+.main-index h3{
   padding-top: 30px;
   font-size: 3vw;
 }
 
-#img1-inicio{
+#img1-index{
   width: 200%;
   height: 420px;
 }
 
-.social-inicio a{
+.social-index a{
   font-size: 3vw;
 }
 
-.social-inicio a:active {
+.social-index a:active {
   color: gray;
 }
 
-.social-inicio a:hover {
+.social-index a:hover {
   color: #6DCD5A;
 }
 
-.section-inicio{
+.section-index{
   width: 50%;
   float: left;
 }
 
-.section-inicio h3{
+.section-index h3{
   text-decoration: underline;
   text-decoration-color: #6DCD5A;
 }
 
-.img-final-inicio {
+.img-final-index {
   float: left;
   width: 30%;
 }
 
-.contenedor-inicio h3 a:hover{
+.contenedor-index h3 a:hover{
   background-color: gray;
   color: white;
 }
 
-.menu-inicio a:hover{
+.menu-index a:hover{
   background-color: gray;
   color: #6DCD5A;
 }
 
-.menu-inicio a:active{
+.menu-index a:active{
   color: black;
 }
 
 }
 
-/* Fin de responsive design Desktops and Laptos (inicio)*/
+/* Fin de responsive design Desktops and Laptos (index)*/
 
-/* Fin del css para el inicio */
+/* Fin del css para el index */
 
 
 
